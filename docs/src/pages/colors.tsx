@@ -88,6 +88,8 @@ export default function ColorsPage({}: Props): ReactElement {
           .
         </PageIntroduction>
 
+        <ColorGroup items={colorItems} />
+
         <h2 className="h2 mt-0">Colors accessibility</h2>
         <p className="paragraph">
           Accessibility on digital is something we highly value and our goal is
@@ -95,8 +97,6 @@ export default function ColorsPage({}: Props): ReactElement {
           people. We are constantly working to evolve our assets to respect the
           accessibility guidelines.
         </p>
-
-        <ColorGroup items={colorItems} />
 
         <Callout
           imageUrl={aaImage}

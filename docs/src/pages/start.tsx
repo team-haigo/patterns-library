@@ -155,7 +155,7 @@ export default AXAButtonReact;
           title="AXA Design System UI Kit"
           description="To design with AXA Design System you need the most recent version of Sketch installed."
           linkToTitle="Download"
-          linkToUrl={'/axa-design-system-v3.sketch'}
+          linkToUrl={'https://brandhub.axa.com/media/?mediaId=1EB5A285-444E-47F8-AEF1F5E7EE14106A'}
         />
       </Container>
     </Layout>

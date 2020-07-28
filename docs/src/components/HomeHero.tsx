@@ -30,6 +30,7 @@ export default function HomeHero() {
             <Button
               variant="secondary"
               size="large"
+              target="_blank"
               onClick={() => {
                 navigate(githubCodebaseUrl);
               }}
