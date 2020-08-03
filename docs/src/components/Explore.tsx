@@ -16,7 +16,7 @@ export default function Community() {
         title=" Understanding the AXA Design System"
         description="Atoms? Molecules? Organisms? Master the structure approach of AXA Design System."
         linkToTitle="Know more"
-        linkToUrl={'/components'}
+        linkToUrl={'/structure'}
         isInternalLink={true}
       />
     </>
