@@ -5,7 +5,7 @@ import { navigate } from '@reach/router';
 import spotIllustration from '../images/axa-design-illustration.png';
 import GitHubIcon from './GitHubIcon';
 import { githubCodebaseUrl } from '../../siteConfig';
-import { Button } from '../patterns';
+import { Button, ButtonLink } from '../patterns';
 
 export default function HomeHero() {
   return (
@@ -27,10 +27,10 @@ export default function HomeHero() {
             <Link to="/start" style={{ marginRight: 32 }}>
               <Button size="large">Get started</Button>
             </Link>
-            <Button
+            <ButtonLink
               variant="secondary"
               size="large"
-              target="_blank"
+              external
               onClick={() => {
                 navigate(githubCodebaseUrl);
               }}
@@ -43,7 +43,7 @@ export default function HomeHero() {
                 }}
               />
               GitHub
-            </Button>
+            </ButtonLink>
           </div>
         </div>
         <div className="Hero-right">
